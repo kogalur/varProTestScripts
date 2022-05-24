@@ -30,8 +30,8 @@ if("derandomKnock" %in% rownames(installed.packages()) == FALSE) {
 }
 
 
-library(_PROJECT_PACKAGE_NAME_)
-library(_RFSRC_PACKAGE_NAME_)
+library(varPro)
+library(randomForestSRC)
 
 library(derandomKnock)
 library(gbm)
